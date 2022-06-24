@@ -22,7 +22,7 @@ context('Comentar no blog', () => {
         
     });
 
-    it.only('Erro ao comentar', () => {
+    it('Erro ao comentar', () => {
 
         let nomeFaker = faker.name.lastName()
         
