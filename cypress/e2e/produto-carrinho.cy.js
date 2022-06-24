@@ -8,6 +8,12 @@ describe('Funcionalidade Página de produtos e adição no carrinho', () => {
 
     });
 
+    afterEach(() => {
+        cy.screenshot()
+    });
+
+    
+
     it('Deve adicionar um produto da lista', () => {
 
         cy.get('[class="product-block grid"]')
